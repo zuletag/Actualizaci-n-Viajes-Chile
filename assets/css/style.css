@@ -1,0 +1,91 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--backgroud-color);
+    color: #fff;
+}
+
+/* Colores */
+:root {
+    --main-color: #49c8ee;
+    --backgroud-color: #000;
+}
+/* Fin Colores */
+
+/* Fuentes */
+h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+/* Fin Fuentes */
+
+
+/* Navbar */
+.navbar-brand img {
+    height: 2.1rem;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.473);
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20pt;
+    color: #fff;
+    font-weight: 500;
+}
+/* Fin Navbar */
+
+
+/* Footer */
+footer {
+    background-color: var(--main-color);
+    font-family: "Montserrat", sans-serif;
+}
+/* Fin Footer */
+
+
+/* Quienes Somos */
+.cuadro-iconos {
+    background-color: var(--main-color);
+}
+/* Fin Quienes Somos */
+
+
+/* Card */
+.card-img-top {
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.card {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.card h4 {
+    font-family: "Montserrat", sans-serif;
+}
+/* Fin Card */
+
+/* Tooltip */
+.custom-tooltip {
+    --bs-tooltip-bg: var(--main-color);
+    --bs-tooltip-color: #fff;
+    font-size: 15pt;
+}
+/* Fin Tooltip */
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+/* Fin Smooth Scroll */
+
+.clickable {
+    color: #fff;
+}
+
