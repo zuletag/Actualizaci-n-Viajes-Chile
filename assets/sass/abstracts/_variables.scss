@@ -1,0 +1,30 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--backgroud-color);
+    color: #fff;
+}
+
+/* Colores */
+:root {
+    --main-color: #49c8ee;
+    --backgroud-color: #000;
+}
+/* Fin Colores */
+
+.clickable {
+    color: #fff;
+}
+
+/* Tooltip */
+.custom-tooltip {
+    --bs-tooltip-bg: var(--main-color);
+    --bs-tooltip-color: #fff;
+    font-size: 15pt;
+}
+/* Fin Tooltip */
+
+.cuadro-iconos {
+    background-color: var(--main-color);
+}
+

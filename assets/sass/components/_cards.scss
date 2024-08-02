@@ -1,0 +1,16 @@
+/* Card */
+.card-img-top {
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.card {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.card h4 {
+    font-family: "Montserrat", sans-serif;
+}
+/* Fin Card */
