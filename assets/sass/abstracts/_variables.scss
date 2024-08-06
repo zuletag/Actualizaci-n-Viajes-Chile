@@ -34,12 +34,12 @@ body {
 }
 
 .carousel-item img {
-    max-height: 500px;
-    width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    background-position: bottom;
-    border-radius: 30px;
+  max-height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-position: bottom;
+  border-radius: 30px;
 }
 
 @media (max-width: 720px) {
@@ -48,6 +48,6 @@ body {
   }
 }
 
-.carousel-item-top{
-    object-position:50% 0%;
-  }
+.carousel-item-top {
+  object-position: 50% 0%;
+}
