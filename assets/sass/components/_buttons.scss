@@ -1,1 +1,9 @@
-//This file you will create your style for buttons inside of the project
+.btn{
+    background-color: var(--main-color);
+    border: solid var(--main-color);
+}
+
+.btn:hover{
+    background-color: rgb(20, 20, 20);
+    border: solid rgb(20, 20, 20);
+}

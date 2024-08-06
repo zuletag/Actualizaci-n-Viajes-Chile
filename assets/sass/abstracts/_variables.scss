@@ -1,30 +1,53 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    font-family: "Roboto", sans-serif;
-    background-color: var(--backgroud-color);
-    color: #fff;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--backgroud-color);
+  color: #fff;
 }
 
 /* Colores */
 :root {
-    --main-color: #49c8ee;
-    --backgroud-color: #000;
+  --main-color: #49c8ee;
+  --backgroud-color: #212529;
 }
 /* Fin Colores */
 
 .clickable {
-    color: #fff;
+  color: #fff;
 }
 
 /* Tooltip */
 .custom-tooltip {
-    --bs-tooltip-bg: var(--main-color);
-    --bs-tooltip-color: #fff;
-    font-size: 15pt;
+  --bs-tooltip-bg: var(--main-color);
+  --bs-tooltip-color: #fff;
+  font-size: 15pt;
 }
 /* Fin Tooltip */
 
 .cuadro-iconos {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
+/* Carrousel */
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-position: bottom;
+    border-radius: 30px;
+}
+
+@media (max-width: 720px) {
+  .carousel-item {
+    height: 300px;
+  }
+}
+
+.carousel-item-top{
+    object-position:50% 0%;
+  }
